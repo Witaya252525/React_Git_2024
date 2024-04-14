@@ -1,7 +1,8 @@
 
 import './App.css';
-import AppHeader from './AppHeader'
-import TattooItems from './TattooItems'
+import AppHeader from './components/AppHeader'
+import TattooItems from './components/TattooItems'
+import TattooPost from './components/TattooPost'
 
 
 
@@ -19,11 +20,8 @@ function App() {
       <TattooItems/>
       <TattooItems/>
 
-      
-
-
-
       </div>
+      <TattooPost/>
     </div>
   );
 }
